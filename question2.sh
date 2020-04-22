@@ -5,5 +5,6 @@ SCRIPTPATH+="/xml/website.html"
 
 rm $SCRIPTPATH
 
+
 javac Transformer1.java
 java Transformer1  xml/websiteXml2Html.xsl  xml/website.xml  xml/website.html
